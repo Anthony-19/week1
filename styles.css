@@ -1,20 +1,28 @@
-h1{
-    color: red;
+body{
+    display: flow-root;
 }
-.container{
-    font-size: 16px;
-    background-color: #d3d3d3;
+nav{
+    float: left;
+    margin-right: 1rem;
 }
-
-footer {
-    font-style: italic;
-    color: green;
+ li{
+    list-style: none;
 }
-.highlight{
-    font-weight: bold;
-    color: blue;
+a{
+    text-decoration: none;
 }
-#header{
-    font-size: 14px;
-    color:#ffffed;
+ul{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+article{
+    position: absolute;
+    top: 300px;
+    left: 0px;
+}
+footer{
+    background-color: grey;
+    padding: 10px;
+    margin: 30px;
 }
